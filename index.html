@@ -1,0 +1,74 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A!</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <div class="container oo">
+        <br>
+        <table>
+            <tr>
+                <td colspan="3">
+                    <input type='text' id='result' class ='screen' style="text-align: right;">
+                </td>
+                <td>
+                    <input type='button' value = 'C' onclick="clearScreen()" class="clear"/>
+                </td>
+            </tr>
+        </table>
+        <div class="keys">
+            <input type="button" value="7" class="button" onClick="ekran('7')"></input>
+            <input type="button" value="8" class="button " onClick="ekran('8')"></input>
+            <input type="button" value="9" class="button" onClick="ekran('9')"></input>
+            <input type="button" value="/" class="operator" onClick="ekran('/')"></input>
+            <input type="button" value="4" class="button" onClick="ekran('4')"></input>
+            <input type="button" value="5" class="button" onClick="ekran('5')"></input>
+            <input type="button" value="6" class="button" onClick="ekran('6')"></input>
+            <input type="button" value="*" class="operator" onClick="ekran('*')"></input>
+            <input type="button" value="1" class="button" onClick="ekran('1')"></input>
+            <input type="button" value="2" class="button" onClick="ekran('2')"></input>
+            <input type="button" value="3" class="button" onClick="ekran('3')"></input>
+            <input type="button" value="-" class="operator" onClick="ekran('-')"></input>
+            <input type="button" value="0" class="button" onClick="ekran('0')"></input>
+            <input type="button" value="." class="button" onClick="ekran('.')"></input>
+            <input type="button" value= "=" class="button equal-sign" onClick="solve()"></input>
+            <input type="button" value="+" class="operator" onClick="ekran('+')"></input>
+        </div>
+        
+        <div class="yazi">
+
+            <div class="h1">
+                <h1>Isindex Calculator</h1>
+            </div>
+
+            <div class="h2">
+                <h2><b>21 Digits</b></h2>
+            </div>
+
+        </div>
+    
+        </div>
+
+        <div class="sol_input aa">
+            <div class="container">
+                <input type="text" id="yziinp" value="" placeholder="adini yaz bura!">
+                <button id="A" class="btn btn-success" onclick="input_func()">Click!</button> 
+
+                <ul id="list">
+
+                </ul>
+
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<script src="js/main.js"> </script>

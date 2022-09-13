@@ -1,0 +1,133 @@
+.oo {
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(51%, -91%);
+    width: 450px;
+    height: 400px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    margin:auto;
+}
+
+.button {
+    height: 60px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: 'calculator' , sans-serif;
+    color: #333;
+}
+
+.button:hover {
+    background-color: #eaeaea;
+}
+
+.operator {
+    color: #fff;
+    background-color: #eebb24;
+}
+
+.operator:hover {
+    background-color: #bd951c;
+}
+
+.clear {
+    background-color: #f0595f;
+    border-color: #b0353a;
+    color: #fff;
+    width: 80px;
+    height: 30px;  
+    transform: translateX(105px) translateY(-5px);
+}
+
+.clear:hover {
+    background-color: #f17377;
+}
+
+.equal-sign {
+    background-color: #25a8e0;
+    border-color: #25a8e0;
+    color: #fff;
+}
+
+.equal-sign:hover {
+    background-color: #4e9ed4;
+}
+
+.screen{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color:rgb(171, 219, 231);
+    justify-content: left;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    width: 143%;
+    height: 45px;
+    cursor: default;
+    padding: 5px; 
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.yazi {
+    width: 100%;
+    min-height: 252px;
+    /* background-color: #; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 399px;
+    left: 4px;
+}
+
+.h1 {
+    position: absolute;
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2 {
+    position: absolute;
+    width: 100%;
+    min-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+}
+
+.sol_input {
+    width: 66.8%;
+    min-height: 100%;
+    /* background-color: #25a8e0; */
+}
+
+#yziinp {
+    border-radius: 5px;
+}
+
+.aa {
+    padding: 0px 25px 0px 25px;
+}
+
+.aaa {
+    width: 72%;
+    height: 90%;
+    background-color: blue;
+}
